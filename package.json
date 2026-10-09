@@ -1,0 +1,21 @@
+{
+  "name": "spark-lend-stable-debt-atq-module",
+  "version": "1.0.0",
+  "description": "Dynamic SparkLend stable debt accounting address tags on Ethereum.",
+  "type": "module",
+  "main": "main.mjs",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "test": "yarn build && node --experimental-vm-modules --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "atq-types": "^1.1.5",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "typescript": "^5.4.2"
+  },
+  "packageManager": "yarn@1.22.22"
+}
